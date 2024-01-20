@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact Information</a>
+      <div class="animation start-about"></div>
+    </nav>
+    <button class="toggle-button btn btn-toggle-dark" onclick="toggleDarkMode()">
+      <i class="fas fa-moon"></i>
+    </button>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="imgBx">
+        <img src="profile.jpg" alt="Avatar">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Mike Julius Coloma <br><span>Web Developer</h2>
+          <div class="data">
+            <h3>123 <br><span>Posts</span></h3>
+            <h3>1.6k <br><span>Friends</span></h3>
+            <h3>23 <br><span>Followings</span></h3>
+          </div>
+          <div class="actionBtn">
+            <button>Follow</button>
+            <button>Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-container">
+    </div>
+  </div>
+  <div class="section-column">
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>My name is Mike Julius Coloma and my family and Friends used to call me MJ. I'm 21 years old and taking up
+        Bachelor's degree in Information Technology | My favorite color is blue because whenever I need something to
+        calm me especially during my hardest time, I only need to look for picture of a sea sour and a blue sky. I love
+        sleeping also watching anime</p>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+      <p>I am currently taking Bachelor of Science in Information Technology - Major in Web Technology</p>
+    </section>
+
+    <section id="experience" class="content-section">
+      <h2>Experience</h2>
+      <p>
+        I have been serving as an Encoder for the Municipal Information Society in Municipality, Orani Bataan since
+        January 2020.</p>
+    </section>
+
+    <section id="skills" class="content-section">
+      <h2>Skills</h2>
+      <p>I am Knowledgeable in programming language such as Python, C++ and C#. I am also Proficient in speaking skills
+        and public speaking</p>
+    </section>
+  </div>
+  <div class="bottom-line"></div>
+
+  <section id="projects" class="container max-container">
+    <h2>Projects</h2>
+    <div class="section-column">
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <section id="contact">
+    
+      <div class="container">
+        <h1>Contact Information</h1>
+        <p></p>
+        <div class="social">
+          <div>
+            <a target="_blank" href="https://www.facebook.com/KazhumiPH">
+              <i class="fab fa-facebook fa-1x"></i>
+              Facebook
+            </a>
+            <a id="profile-link" target="_blank" href="https://github.com/clmJuls">
+              <i class="fab fa-github fa-1x"></i>
+              Github
+            </a>
+            <a target="_blank" href="https://twitter.com/KazhumiK">
+              <i class="fab fa-twitter fa-1x"></i>
+              Twitter
+            </a>
+            <a href="#">
+              <i class="fas fa-envelope-open-text fa-1x"></i>
+              Mail
+            </a>
+            <a href="#">
+              <i class="fas fa-phone fa-1x"></i>
+              Call Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
